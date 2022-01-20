@@ -1,0 +1,570 @@
+body{
+    background-color: #f0efef;
+}
+header{
+    padding-top: 37px;
+    padding-bottom: 37px;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+    background-color: #FCFCFC;
+}
+.d-inline-block{
+    display: inline-block;
+}
+.clear {
+    clear: both;
+}
+.nav-ul{
+    width: 68.5%;
+    height: 26px;
+    margin: 0 auto;
+}
+.nav-li {
+    float: right;
+    font-family: 'Acumin Pro';
+    margin-top: 4px;
+}
+.nav-a {
+    font-size: 16px;
+    color: black;
+    font-family: 'Acumin Pro';
+}
+.first-li{
+    font-size: 22px;
+    font-family: 'Acumin Pro';
+}
+.first-li::before{
+    content: " ";
+    display: inline-block;
+    margin-bottom:3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 90px;
+    background-color: blue;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#6294A2), to(#58C3DD));
+    background-image: -o-linear-gradient(#6294A2, #58C3DD);
+    background-image: linear-gradient(#6294A2, #58C3DD);
+    margin-right: 10px;
+}
+.first-li::after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 20px;
+    background-color: #dbdada;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.fourth-li{
+    margin-right: 50px;
+}
+/*   Finish header!  */
+.conteiner {
+    z-index: 2;
+}
+.image-section{
+    width: 68.5%;
+    margin: 0 auto;
+    position: relative;
+}
+.image{
+    width: 100%;
+    height: 260px;
+    margin-top: 150px;
+}
+.button1{
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    padding: 10px 20px;
+    color: #FCFCFC;
+    font-size: 17px;
+    border-radius: 40px;
+    background-image: -webkit-gradient(linear, left top, right top, from(#6294A2), to(#58C3DD));
+    background-image: -o-linear-gradient(left, #6294A2, #58C3DD);
+    background-image: linear-gradient(to right, #6294A2, #58C3DD);
+}
+.section-div{
+    position: absolute;
+    top: 200px;
+    left: 57px;
+}
+.section-div h6{
+    color: #F0F0F0;
+    font-size: 15px;
+    font-family: 'Acumin Pro';
+    margin-bottom: 8px;
+}
+.section-div h3{
+    color: #F0F0F0;
+    font-size: 32px;
+    font-family: 'Acumin Pro';
+    margin-bottom: 16px;
+}
+.section-div p{
+    color: #FCFCFC;
+    font-size: 15px;
+    font-family: 'Acumin Pro';
+    margin-bottom: 20px;
+}
+.p2{
+    font-size: 12px;
+    color: #F0F0F0;
+    font-family: 'Acumin Pro';
+    position: absolute;
+    top: 200px;
+    right: 155px;
+
+}
+.button2 {
+    font-size: 12px;
+    border: none;
+    border-radius: 40px;
+    background-image: -webkit-gradient(linear, left top, right top, from(#6294A2), to(#58C3DD));
+    background-image: -o-linear-gradient(left, #6294A2, #58C3DD);
+    background-image: linear-gradient(to right, #6294A2, #58C3DD); 
+    position: absolute;
+    top: 190px;
+    right: 20px;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    padding: 10px 20px;
+    color: #FCFCFC;
+}
+.button2 a{
+    color: white;
+}
+.blur-image{
+    width: 910px;
+    height: 238px;
+    position: absolute;
+    top:157px;
+    left: 8px;
+    border-radius: 8px;
+    background-color: rgba(90, 99, 112, 0.5); 
+}
+.section-2 {
+    width: 68.5%;
+    margin: 0 auto;
+    margin-top: 58px;
+    margin-bottom: 50px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 40px 1fr;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 40px;
+    -ms-grid-rows: 290px 20px 290px;
+    grid-template-rows: 290px 290px;
+    grid-row-gap: 20px;
+}
+.section-2 > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+}
+.section-2 > *:nth-child(2) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+}
+.section-2 > *:nth-child(3) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+}
+.section-2 > *:nth-child(4) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+}
+.section-2 :nth-child(1){
+    -ms-grid-row: 1;
+        grid-row-start: 1;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    -ms-grid-row-span: 2;
+    grid-row-end: 3;
+    background-color: #FCFCFC;
+    border-radius: 4px;
+}
+.div-box1 h4{
+    font-size: 24px;
+    font-family: 'Acumin Pro';
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+.div-box1 h4::before{
+    content: " ";
+    display: inline-block;
+    margin-bottom:3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 90px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#6294A2), to(#58C3DD));
+    background-image: -o-linear-gradient(#6294A2, #58C3DD);
+    background-image: linear-gradient(#6294A2, #58C3DD);
+    margin-right: 10px;
+}
+.div-box1 a{
+    font-size: 12px;
+    color: #707070;
+    float: right;
+    margin-top: 45px;
+    margin-right: 10px;
+    font-family: 'Acumin Pro';
+}
+.jeep-div{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.article-2 {
+    margin-bottom: 15px;
+}
+.article-2 img{
+    width: 171px;
+}
+.jeep-div p{
+    max-width: 370px;
+}
+.pi{
+    color: #707070;
+    font-size: 11px;
+    font-family: 'Acumin Pro';
+}
+.jeep-div h2{
+    font-family: 'Acumin Pro';
+    font-size: 17px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    max-width: 360px;
+}
+.pii{
+    font-family: 'Acumin Pro';
+    font-size: 14px;
+}
+.div-box2{
+    position: relative;
+    border-radius: 10px;
+}
+.div-box2 img{
+    width: 100%;
+    height: 100%;
+    -webkit-filter: blur(2px);
+            filter: blur(2px);
+}
+.div-box2 div{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+.grid-2 p{
+    color: #707070;
+    font-size: 15px;
+    max-width: 220px;
+    margin-bottom: 30px;
+}
+.grid-2 h4{
+    color: #FCFCFC;
+    font-size: 32px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.entry-now {
+    background-color: rgba(112, 112, 112, 0.5);
+    margin-top: 20px;
+    color: #FCFCFC;
+    font-size: 16px;
+    font-family: 'Acumin Pro';
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    padding: 10px 50px 10px 50px;
+    border-radius: 20px;
+}
+.icon-pencil{
+    margin-right: 10px;
+    color: white;
+}
+.div-box3{
+    background-color: #FCFCFC;
+    border-radius: 10px;
+}
+.div-box3-p1{
+    font-size: 25px;
+    font-family: 'Acumin Pro';
+    margin: 20px 0 24px 20px;
+}
+.div-box3-p2{
+    font-size: 15px;
+    color: #404040;
+    font-family: 'Acumin Pro';
+    max-width: 275px;
+    margin: 0 auto;
+}
+.div-box3-p1::before{
+    content: " ";
+    display: inline-block;
+    margin-bottom:3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 90px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#6294A2), to(#58C3DD));
+    background-image: -o-linear-gradient(#6294A2, #58C3DD);
+    background-image: linear-gradient(#6294A2, #58C3DD);
+    margin-right: 10px;
+}
+.form {
+    width: 80%;
+    height: 38px;
+    margin-top: 15px;
+}
+.input-email {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #cfcece;
+    margin-left: 20px;
+}
+.input-submit{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    font-size: 17px;
+    background-image: -webkit-gradient(linear, left top, right top, from(#6294A2), to(#58C3DD));
+    background-image: -o-linear-gradient(left, #6294A2, #58C3DD);
+    background-image: linear-gradient(to right, #6294A2, #58C3DD);
+    background-color: wheat;
+    border: none;
+}
+.horizontal-line{
+    width: 100%;
+    border-top: 2px dashed blue;
+}
+/* finish section-2*/
+.section-3 {
+    width: 68.5%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.section-3-div h6{
+    font-size: 26px;
+    font-family: 'Acumin Pro';
+    margin-bottom: 25px;
+}
+.section-3-div h6::before{
+    content: " ";
+    display: inline-block;
+    margin-bottom:3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 90px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#6294A2), to(#58C3DD));
+    background-image: -o-linear-gradient(#6294A2, #58C3DD);
+    background-image: linear-gradient(#6294A2, #58C3DD);
+    margin-right: 10px;
+}
+.section-3-article a{
+    font-size: 13px;
+    color: #707070;
+    font-family: 'Acumin Pro';
+}
+.section-3-article h3{
+    font-size: 20px;
+    font-family: 'Acumin Pro';
+    margin: 7px 0;
+}
+.section-3-article p{
+    font-size: 15px;
+    font-family: 'Acumin Pro';
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+.section-3-div{
+    width: 35%;
+    padding: 30px;
+    background-color: #FCFCFC;
+    border-radius: 10px;
+}
+.section-3-img img{
+    width: 480px;
+    height: 420px;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.section-3-img {
+    position: relative;
+}
+.section-3-img div{
+    position: absolute;
+    bottom: 20%;
+}
+.section-3-img-div {
+    background-color: rgba(112, 112, 112, 0.2);
+    width: 100%;
+    height: 22%;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.section-3-img-div p{
+    font-size: 15px;
+    color: #707070;
+    font-family: 'Acumin Pro';
+}
+.section-3-img-div h5{
+    font-size: 32px;
+    color: #F0F0F0;
+    margin: 10px 0;
+}
+/* finish section-3 */
+.section-4{
+    width: 68.5%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #FCFCFC;
+    padding: 36px 30px;
+    border-radius: 10px;
+}
+.section-4 div{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 35px;
+}
+.section-4 h3{
+    font-size: 26px;
+    font-family: 'Acumin Pro';
+}
+.section-4 h3::before{
+    content: " ";
+    display: inline-block;
+    margin-bottom:3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 90px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#6294A2), to(#58C3DD));
+    background-image: -o-linear-gradient(#6294A2, #58C3DD);
+    background-image: linear-gradient(#6294A2, #58C3DD);
+    margin-right: 10px;
+}
+.section-4-article {
+    width: 270px;
+}
+.section-4-article a{
+    font-size: 16px;
+    color: #333333;
+    font-family: 'Acumin Pro';
+}
+.section-4-article img{
+    width: 270px;
+}
+.section-4-article p{
+    max-width: 260px;
+    font-size: 15px;
+    color: #333333;
+    font-family: 'Acumin Pro';
+    margin-top: 20px;
+}
+/*finish section-4 */
+/* starting footer*/
+.footer{
+    background-color: #FCFCFC;
+    padding: 47px 0 28px;
+}
+.footer-div {
+    width: 68.5%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.div-footer h5{
+    font-size: 22px;
+    font-family: 'Acumin Pro';
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.div-footer h5::before{
+    content: " ";
+    display: inline-block;
+    margin-bottom:3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 90px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#6294A2), to(#58C3DD));
+    background-image: -o-linear-gradient(#6294A2, #58C3DD);
+    background-image: linear-gradient(#6294A2, #58C3DD);
+    margin-right: 10px;
+}
+.footer-p1{
+    display: inline-block;
+    margin-left: 25px;
+    color: #707070;
+}
+.div-footer h6{
+    font-size: 16px;
+    font-family: 'Acumin Pro';
+    margin-bottom: 15px;
+}
+.div-footer p{
+    max-width: 320px;
+    color: #707070;
+    font-size: 15px;
+}
+.footer-ul {
+    display: inline-block;
+}
+.footer-ul{
+    margin-left: 40px;
+}
+.footer-ul li a{
+    color: #333333;
+    font-size: 15px;
+    font-family: 'Acumin Pro';
+}
+.footer-ul li{
+    margin-bottom: 10px;
+}
+.vertical-line{
+    display: inline-block;
+    border-left: 2px solid #F0F0F0;
+    height: 115px;
+    margin-left: 30px;
+}
+.footer-icons p{
+    margin-bottom: 15px;
+}
+.footer-icons a{
+    margin-top: 20px;
+    color: #333333;
+}
+#Path_1{
+    fill: #9E9C9C;
+}
+#Path_2{
+    fill: #9E9C9C;
+}
+#Path_9{
+    fill: #9E9C9C;
+}
+#Path_3{
+    fill: #9E9C9C;
+}
+#Path_4{
+    fill: #9E9C9C;
+}
+.portfolio {
+    margin-top: 20px;
+}
